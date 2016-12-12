@@ -9,7 +9,10 @@
 	</head>
 	
 	<body>
-		
+    <!-- Navigation -->
+<?php 
+include "inc/top.inc"; 
+?>			
 	<!-- Contact Form -->
 				<h1>Contact Form</h1>
 

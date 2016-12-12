@@ -4,17 +4,26 @@
 <head>
     <meta charset="utf-8">
     <title>Long Scrolly Template</title>
+	
+
     <link rel="stylesheet" href="css/long-scrolly.css">
     <link rel="stylesheet" href="css/styles.css">
+		
 </head>
 
 <body>
 
     <!-- Navigation -->
-<?php include "inc/top.inc"; ?>
+<?php 
+include "inc/top.inc"; 
+?>
 
     <!-- Top Section -->
+	
+
     <section id="first">
+
+	
         <div class="container">
 
             <h1>About</h1>
@@ -33,7 +42,7 @@
     <section id="second">
         <div class="container">
 
-            <h1>Accomplishments</h1>
+            <h1>Details</h1>
 
             <div class="content">
 
@@ -49,20 +58,23 @@
     <section id="third">
         <div class="container">
 
-            <h1>Portfolio</h1>
+            <h1>More Info</h1>
 
             <div class="content">
+			
 
-	   
 
-            </div><!-- .content -->
+			</div><!-- .content -->
 
        </div><!-- .container -->
 
     </section>
 
+	
 <!-- Use the following JavaScript code to do the smooth-scroll thing on the internal links -->
 <script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
+
+
 <script>
 // From:    Smooth Scrolling by CHRIS COYIER, updated JANUARY 31, 2016
 //          https://css-tricks.com/snippets/jquery/smooth-scrolling
@@ -81,6 +93,8 @@ $(function() {
   });
 });
 </script>
+
+
 
 </body>
 
