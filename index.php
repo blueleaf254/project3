@@ -8,21 +8,22 @@
 
     <link rel="stylesheet" href="css/long-scrolly.css">
     <link rel="stylesheet" href="css/styles.css">
-		
+	<link href="https://fonts.googleapis.com/css?family=Nunito|Open+Sans" rel="stylesheet">		
+	
 </head>
 
 <body>
 
-**
+<?php 
+include "inc/top.inc"; 
+?>
 
     <!-- Top Section -->
 	
 
     <section id="first">
 
-<?php 
-include "inc/top.inc"; 
-?>	
+	
 	
         <div class="container">
 		
