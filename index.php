@@ -14,6 +14,7 @@
 
 <body>
 
+<!-- Navigation -->
 <?php 
 include "inc/top.inc"; 
 ?>
@@ -29,7 +30,7 @@ include "inc/top.inc";
 		
 			<div class="one">
 
-    <!-- Navigation -->
+
 		
 			
 				<h1>Relax like a Cat</h1>
