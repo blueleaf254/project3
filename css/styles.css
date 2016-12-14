@@ -1,7 +1,10 @@
 /*	****************************************
 	Demo styles (for demo purposes only)
 	**************************************** */
-p { margin-top: 0; }
+p { 
+	margin-top: 0; 
+	font-family: 'Nunito', sans-serif;
+}
 
 .right {
 	float: right;
@@ -26,8 +29,51 @@ p { margin-top: 0; }
 	text-align: left;
 	overflow: auto;
 }
+/*	****************************************
 	
-	
+	**************************************** */
+.layout {
+  display: flex;
+  
+  flex-flow: row nowrap; /* Align on the same line */
+  justify-content: space-between; /* Equal margin between the child elements */ 
+  position: absolute; 
+  bottom: 0; 
+  right: 0;
+}
+#first {
+	background-image: url("../images/cat.jpg");
+	background-size: 100% 100%;
+}
+.one  {
+	padding: 8px;
+	background-color: white;
+	opacity: 0.7;
+	border-radius: 20px;
+}	
+.two {
+	padding: 12px;
+/*	background-color: #e18942;*/
+	background-color: #ffb173;
+	opacity: 0.8;
+	color: black;
+	border-radius: 20px;
+	color: black; 
+}
+.three {
+	padding: 12px;
+	background-color: white;
+	opacity: 0.7;
+	border-radius: 20px;
+	color: black; 
+}
+h1 {
+	color: #34282c; 
+/*	font-family: 'Nunito', sans-serif; */
+	font-family: 'Open Sans', sans-serif;
+
+}
+
 
 
 

@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Long Scrolly Template</title>
+    <title>Project Three</title>
 	
 
     <link rel="stylesheet" href="css/long-scrolly.css">
@@ -13,22 +13,57 @@
 
 <body>
 
-    <!-- Navigation -->
-<?php 
-include "inc/top.inc"; 
-?>
+**
 
     <!-- Top Section -->
 	
 
     <section id="first">
 
+<?php 
+include "inc/top.inc"; 
+?>	
 	
         <div class="container">
+		
+			<div class="one">
 
-            <h1>About</h1>
+    <!-- Navigation -->
+		
+			
+				<h1>Relax like a Cat</h1>
+				
+			</div> <!--one -->	
 
             <div class="content">
+				
+				<div class="layout">
+				
+					<div class="two">
+					
+					<p>
+						Now you too can rest assured that your website construction will go smoothly from start to finish.
+					</p>
+					
+					</div> <!--.two -->
+					
+					<div class="three">
+					
+					<p>
+						We can make the process for creating a high quality website effortless for you, the customer.
+					</p>
+					
+					</div> <!--.three -->				
+
+					<div class="two">
+					
+					<p>
+						Catering to all types of businesses, Bloggers, or anyone who would like their own website.
+					</p>
+					
+					</div> <!--.two -->
+					
+				</div> <!--.layout -->
 
                 
 
