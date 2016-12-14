@@ -41,7 +41,7 @@ include "inc/top.inc";
 					<ul id="portfolio-list">
 						<li style="display: block;" class="business ecommerce partner cms programming jquery search">
 							
-							<a href="http://www.urcsc170.org/tanacker/lab09/" title="test"><img src="portfolio_files/SaranacThumb.gif" alt=""></a>
+							<a href="http://www.urcsc170.org/tanacker/lab09/" title="test"><img src="portfolio_files/swiss1.jpg" alt=""></a>
 							
 							<p>
 								An example that uses a Z-pattern.
@@ -50,7 +50,7 @@ include "inc/top.inc";
 						
 						<li style="display: block;" class="nonprofit partner cms jquery">
 							
-							<a href="http://www.urcsc174.org/tanacker/lab11/" title=""><img src="portfolio_files/NEWSALV.gif" alt=""></a>
+							<a href="http://www.urcsc174.org/tanacker/lab11/" title=""><img src="portfolio_files/wordpress1.jpg" alt=""></a>
 							
 							<p>
 								An example of a WordPress blog.
@@ -59,7 +59,7 @@ include "inc/top.inc";
 												
 							<li class="business design">
 								
-								<a href="http://www.urcsc170.org/tanacker/lab01/" title=""><img src="portfolio_files/TSThumb.gif" alt=""></a>
+								<a href="http://www.urcsc170.org/tanacker/lab01/" title=""><img src="portfolio_files/basic1.jpg" alt=""></a>
 								
 								<p>
 									An example of a basic website.
@@ -69,11 +69,27 @@ include "inc/top.inc";
 						
 						<li class="nonprofit university design cms jquery video">
 						
-							<a href="http://www.urcsc170.org/tanacker/lab06/" title=""><img src="portfolio_files/MoreheadThumb.gif" alt=""></a>
+							<a href="http://www.urcsc170.org/tanacker/lab06/" title=""><img src="portfolio_files/nyc1.jpg" alt=""></a>
 								<p>
 									Example of a government website.
 								</p>
 						</li>	
+
+						<li class="nonprofit university design cms jquery video">
+						
+							<a href="http://www.urcsc170.org/tanacker/lab00/" title=""><img src="portfolio_files/materialize1.jpg" alt=""></a>
+								<p>
+									Example a website using Materialize framework.
+								</p>
+						</li>
+
+						<li class="nonprofit university design cms jquery video">
+						
+							<a href="http://www.urcsc170.org/tanacker/lab03/" title=""><img src="portfolio_files/bootstrap1.jpg" alt=""></a>
+								<p>
+									Example a website using Bootstrap framework.
+								</p>
+						</li>
 						
 					</ul>
 		
