@@ -13,10 +13,14 @@
 	
 	<body>
     <!-- Navigation -->
-<?php 
-include "inc/top.inc"; 
+<?php
+$page = 'contact'; 
+include "inc/nav.php"; 
 ?>			
 	<!-- Contact Form -->
+	
+			<div class="form-style">
+			
 				<h1>Contact Form</h1>
 				
 					<p>
@@ -59,9 +63,11 @@ include "inc/top.inc";
 					</form>
 
 					<p class="section-wrapper">
-						<a href="index.php">Return to Portfolio Page</a>
+						Style idea borrowed from: <a href="https://www.sanwebe.com/2013/10/css-html-form-styles">https://www.sanwebe.com/2013/10/css-html-form-styles</a>
 					</p>	
-					
+			
+			</div> <!-- .form-style -->
+			
 <script type="text/javascript">
    <!--
       // Form validation code will come here.
