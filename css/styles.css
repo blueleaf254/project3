@@ -102,7 +102,7 @@ a:hover {
 .section-wrapper a {
 	color: #44b3c2;
 }
-/* form style: Style idea borrowed from: https://www.sanwebe.com/2013/10/css-html-form-styles */
+/* form style: style idea borrowed from: https://www.sanwebe.com/2013/10/css-html-form-styles */
 
 .form-style {
     margin-left:auto;
@@ -165,11 +165,4 @@ a:hover {
 }
 
 
-
-/*	****************************************
-		Media Queries
-	**************************************** */
-@media (max-width: 720px) {
-	
-}
 
