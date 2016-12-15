@@ -68,6 +68,11 @@ p {
 	border-radius: 20px;
 	color: black; 
 }
+.wrapper-one img {
+	float: right;
+	padding: 0px 50px;
+}
+
 h1 {
 	color: #34282c; 
 /*	font-family: 'Nunito', sans-serif; */
