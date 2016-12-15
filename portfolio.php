@@ -6,9 +6,12 @@
 		<meta charset="utf-8">
 		<title>Portfolio</title>
 
+
 		<link rel="stylesheet" href="css/portfolio.css" type="text/css" media="screen">
+		<link href="https://fonts.googleapis.com/css?family=Nunito|Open+Sans" rel="stylesheet">	
 		<script src="js/jquery-1.3.2.min.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/filterable.pack.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" href="css/styles.css">
 	
 	</head>
 	
@@ -16,7 +19,8 @@
 	
     <!-- Navigation -->
 <?php 
-include "inc/top.inc"; 
+$page = 'portfolio';
+include "inc/nav.php"; 
 ?>	
 	
 		<h1>Portfolio Page</h1>
@@ -41,7 +45,7 @@ include "inc/top.inc";
 					<ul id="portfolio-list">
 						<li style="display: block;" class="business ecommerce partner cms programming jquery search">
 							
-							<a href="http://www.urcsc170.org/tanacker/lab09/" title="test"><img src="portfolio_files/swiss1.jpg" alt=""></a>
+							<a href="http://www.urcsc170.org/tanacker/lab09/" title="test"><img src="portfolio_files/swiss.jpg" alt=""></a>
 							
 							<p>
 								An example that uses a Z-pattern.
@@ -50,7 +54,7 @@ include "inc/top.inc";
 						
 						<li style="display: block;" class="nonprofit partner cms jquery">
 							
-							<a href="http://www.urcsc174.org/tanacker/lab11/" title=""><img src="portfolio_files/wordpress1.jpg" alt=""></a>
+							<a href="http://www.urcsc174.org/tanacker/lab11/" title=""><img src="portfolio_files/wordpress.jpg" alt=""></a>
 							
 							<p>
 								An example of a WordPress blog.
@@ -59,7 +63,7 @@ include "inc/top.inc";
 												
 							<li class="business design">
 								
-								<a href="http://www.urcsc170.org/tanacker/lab01/" title=""><img src="portfolio_files/basic1.jpg" alt=""></a>
+								<a href="http://www.urcsc170.org/tanacker/lab01/" title=""><img src="portfolio_files/basic.jpg" alt=""></a>
 								
 								<p>
 									An example of a basic website.
@@ -69,7 +73,7 @@ include "inc/top.inc";
 						
 						<li class="nonprofit university design cms jquery video">
 						
-							<a href="http://www.urcsc170.org/tanacker/lab06/" title=""><img src="portfolio_files/nyc1.jpg" alt=""></a>
+							<a href="http://www.urcsc170.org/tanacker/lab06/" title=""><img src="portfolio_files/nyc.jpg" alt=""></a>
 								<p>
 									Example of a government website.
 								</p>
@@ -77,7 +81,7 @@ include "inc/top.inc";
 
 						<li class="nonprofit university design cms jquery video">
 						
-							<a href="http://www.urcsc170.org/tanacker/lab00/" title=""><img src="portfolio_files/materialize1.jpg" alt=""></a>
+							<a href="http://www.urcsc170.org/tanacker/lab00/" title=""><img src="portfolio_files/materialize.jpg" alt=""></a>
 								<p>
 									Example a website using Materialize framework.
 								</p>
@@ -85,7 +89,7 @@ include "inc/top.inc";
 
 						<li class="nonprofit university design cms jquery video">
 						
-							<a href="http://www.urcsc170.org/tanacker/lab03/" title=""><img src="portfolio_files/bootstrap1.jpg" alt=""></a>
+							<a href="http://www.urcsc170.org/tanacker/lab03/" title=""><img src="portfolio_files/bootstrap.jpg" alt=""></a>
 								<p>
 									Example a website using Bootstrap framework.
 								</p>

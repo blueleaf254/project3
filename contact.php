@@ -5,6 +5,9 @@
 	
 		<meta charset="utf-8">
 		<title>Contact Page</title>
+		
+		<link rel="stylesheet" href="css/styles.css">
+		<link href="https://fonts.googleapis.com/css?family=Nunito|Open+Sans" rel="stylesheet">	
 	
 	</head>
 	
@@ -15,6 +18,10 @@ include "inc/top.inc";
 ?>			
 	<!-- Contact Form -->
 				<h1>Contact Form</h1>
+				
+					<p>
+						Please fill in all of the text fields.
+					</p>
 
 					<form method="post" action="database-write.php" name="myForm" onsubmit="return(validate() & validateEmail() );" >
 		
@@ -51,7 +58,10 @@ include "inc/top.inc";
 				
 					</form>
 
-					<p><a href="index.php">Return to Portfolio Page</a></p>	
+					<p class="section-wrapper">
+						<a href="index.php">Return to Portfolio Page</a>
+					</p>	
+					
 <script type="text/javascript">
    <!--
       // Form validation code will come here.

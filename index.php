@@ -15,9 +15,12 @@
 <body>
 
 <!-- Navigation -->
+
 <?php 
-include "inc/top.inc"; 
+$page = 'home';
+include "inc/nav.php"; 
 ?>
+
 
     <!-- Top Section -->
 	
