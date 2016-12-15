@@ -22,93 +22,104 @@ include "inc/nav.php";
 ?>
 
 
+
     <!-- Top Section -->
 	
 
-    <section id="first">
-
-	
-	
-        <div class="container">
-		
-			<div class="one">
-
+		<section id="first">
 
 		
+		
+			<div class="container">
 			
-				<h1>Relax like a Cat</h1>
-				
-			</div> <!--one -->	
+				<div class="one">
 
-            <div class="content">
-				
-				<div class="layout">
-				
-					<div class="two">
-					
-					<p>
-						Now you too can rest assured that your website construction will go smoothly from start to finish.
-					</p>
-					
-					</div> <!--.two -->
-					
-					<div class="three">
-					
-					<p>
-						We can make the process for creating a high quality website effortless for you, the customer.
-					</p>
-					
-					</div> <!--.three -->				
 
-					<div class="two">
-					
-					<p>
-						Catering to all types of businesses, Bloggers, or anyone who would like their own website.
-					</p>
-					
-					</div> <!--.two -->
-					
-				</div> <!--.layout -->
-
-                
-
-            </div><!-- .content -->
-
-       </div><!-- .container -->
-
-    </section>
-
-    <!-- Second Section -->
-    <section id="second">
-        <div class="container">
-
-            <h1>Details</h1>
-
-            <div class="content">
-
-                
-
-            </div><!-- .content -->
-
-       </div><!-- .container -->
-
-    </section>
-
-    <!-- Third Section -->
-    <section id="third">
-        <div class="container">
-
-            <h1>More Info</h1>
-
-            <div class="content">
 			
+				
+					<h1>Relax like a Cat</h1>
+					
+				</div> <!--one -->	
+
+				<div class="content">
+					
+					<div class="layout">
+					
+						<div class="two">
+						
+						<p>
+							Now you too can rest assured that your website construction will go smoothly from start to finish.
+						</p>
+						
+						</div> <!--.two -->
+						
+						<div class="three">
+						
+						<p>
+							We can make the process for creating a high quality website effortless for you, the customer.
+						</p>
+						
+						</div> <!--.three -->				
+
+						<div class="two">
+						
+						<p>
+							Catering to all types of businesses, Bloggers, or anyone who would like their own website.
+						</p>
+						
+						</div> <!--.two -->
+						
+					</div> <!--.layout -->
+
+					
+
+				</div><!-- .content -->
+
+		   </div><!-- .container -->
+
+		</section>
+
+		<!-- Second Section -->
+		<section id="second">
+			<div class="container">
+
+				<h1>Accomplishments</h1>
+
+				<div class="content">
+				
+					<h2>HTML & CSS</h2>
+					
+					<h2>PHP & myPHPadmin</h2>
+
+					<h2>JavaScript & JQuery</h2>					
+
+				</div><!-- .content -->
+
+		   </div><!-- .container -->
+
+		</section>
+
+		<!-- Third Section -->
+		<section id="third">
+			<div class="container">
+
+				<h1>Accomplishments</h1>
+
+				<div class="content">
+				
+					<h2>WordPress CMS</h2>
+
+					<h2>Usability</h2>
+					
+					<h2>Design Fundamentals</h2>					
 
 
-			</div><!-- .content -->
+				</div><!-- .content -->
 
-       </div><!-- .container -->
+		   </div><!-- .container -->
 
-    </section>
+		</section>
+		
 
 	
 <!-- Use the following JavaScript code to do the smooth-scroll thing on the internal links -->
