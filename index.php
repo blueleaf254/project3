@@ -47,32 +47,30 @@ include "inc/nav.php";
 					
 						<div class="two">
 						
-						<p>
-							Now you too can rest assured that your website construction will go smoothly from start to finish.
-						</p>
+							<p>
+								Now you too can rest assured that your website construction will go smoothly from start to finish.
+							</p>
 						
 						</div> <!--.two -->
 						
 						<div class="three">
 						
-						<p>
-							We can make the process for creating a high quality website effortless for you, the customer.
-						</p>
+							<p>
+								We can make the process for creating a high quality website effortless for you, the customer.
+							</p>
 						
 						</div> <!--.three -->				
 
 						<div class="two">
 						
-						<p>
-							Catering to all types of businesses, Bloggers, or anyone who would like their own website.
-						</p>
+							<p>
+								Catering to all types of businesses, Bloggers, or anyone who would like their own website.
+							</p>
 						
 						</div> <!--.two -->
 						
 					</div> <!--.layout -->
-
 					
-
 				</div><!-- .content -->
 
 		   </div><!-- .container -->
@@ -81,6 +79,7 @@ include "inc/nav.php";
 
 		<!-- Second Section -->
 		<section id="second">
+		
 			<div class="container">
 
 				<h1>Accomplishments</h1>
@@ -94,30 +93,39 @@ include "inc/nav.php";
 						<h2>HTML & CSS</h2>
 						
 							<img src="images/html.jpg" alt="html symbol">
-							
-							<p>
-								Clean, semantically correct HTML and well-organized CSS in order to improve code readability and to easily make changes to the code.
-							</p>
-				
+
+							<div class="p-layout">
+								<p>
+									Clean, semantically correct HTML and well-organized CSS in order to improve code readability and to easily make changes to the code.
+								</p>
+
+							</div> <!--.p-layout -->
 			
 						<h2>PHPmyadmin</h2>
 						
-							<img src="images/phpmy.png" alt="my PHP Admin symbol">	
+								<img src="images/phpmy.png" alt="my PHP Admin symbol">	
 							
-							<p>
-								Competent use of PHPmyadmin for the creation of effective forms and database systems for collection and reporting of information.
-							</p>				
-					
-						<h2>PHP</h2>               
+							<div class="p-layout">							
+							
+								<p>
+									Competent use of PHPmyadmin for the creation of effective forms and database systems for collection and reporting of information.
+								</p>	
 
-							<img src="images/php.png" alt="php symbol">	
-							
-							<p>
-								Use of PHP includes to simplify changes to navigation menus and other items that remain static on multiple pages. This allows for almost effortless future updates.
-							</p>				
-											
+							</div> <!-- .p-layout -->	
 					
-					</div> <!-- .col -->
+						<h2>PHP</h2>     
+
+								<img src="images/php.png" alt="php symbol">	
+							
+							<div class="p-layout">							
+							
+								<p>
+									Use of PHP includes to simplify changes to navigation menus and other items that remain static on multiple pages. 
+								</p>				
+											
+							</div>  <!-- .p-layout -->
+							
+					</div> <!-- .wrap-one -->
 
 				</div><!-- .content -->
 
@@ -138,27 +146,39 @@ include "inc/nav.php";
 						<h2>WordPress CMS</h2>
 
 							<img src="images/wp.png" alt="word press symbol">
+
+							<div class="p-layout">	
 							
-							<p>
-								Careful creation of WordPress blogs and websites to allow for easier client use and for maintainability.
-							</p>	
+								<p>
+									Careful creation of WordPress blogs and websites to allow for easier client use and for maintainability.
+								</p>
+
+							</div> <!-- .p-layout -->	
 							
 						<h2>JavaScript & JQuery</h2>
 						
 							<img src="images/js.png" alt="javascript symbol">
+
+							<div class="p-layout">	
 							
-							<p>
-								Appropriate usage of jQuery to simplify and speed up development and design aspects of website creation. And, of course, application of JavaScript to add behavioral elements.
-							</p>						
-						
+								<p>
+									Appropriate usage of jQuery to simplify and speed up development and design aspects of website creation. And, of course, application of JavaScript to add behavioral elements.
+								</p>						
+
+							</div>  <!-- .p-layout -->
+								
 						<h2>Design Fundamentals</h2>	
 
 							<img src="images/color.jpg" alt="design choices">
-							
-							<p>
-								Basic design abilities to bring together elements for a comprehensive color palette and layout that will not hurt your eyes (or make you vomit). 
-							</p>						
 
+							<div class="p-layout">	
+							
+								<p>
+									Basic design abilities to bring together elements for a comprehensive color palette and layout that will not hurt your eyes (or make you vomit). 
+								</p>						
+
+							</div>  <!-- .p-layout -->	
+								
 					</div> <!--.wrap-one -->
 						
 				</div><!-- .content -->

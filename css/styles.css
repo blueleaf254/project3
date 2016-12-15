@@ -29,7 +29,13 @@ p {
 	text-align: left;
 	overflow: auto;
 }
-
+.content img {
+	float: right;
+	padding: 0px 50px 0px 0px;
+}
+.wrap-one {
+	
+}
 /*	****************************************
 	Layout
 	**************************************** */
@@ -46,7 +52,9 @@ p {
 	background-image: url("../images/cat2.jpg");
 	background-size: 100% 100%;
 }
-
+#second {
+	background-color: #ead3a8;
+}
 .one  {
 	padding: 8px;
 	background-color: white;
@@ -74,6 +82,14 @@ p {
 	width: 100%;
 	max-width: 200px;
 	text-align: center;
+}
+.p-layout {
+	width: 70%;
+	margin: 50px;
+}
+.i-layout {
+
+	margin: 10px;
 }
 
 h1 {
