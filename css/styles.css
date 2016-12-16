@@ -1,103 +1,15 @@
 /*	****************************************
-	Demo styles (for demo purposes only)
+	Base
 	**************************************** */
 p { 
 	margin-top: 0; 
 	font-family: 'Nunito', sans-serif;
 }
-
-.right {
-	float: right;
-	margin-left: 15px;
-}
-
-.frame {
-	border: 1px solid #666;
-	padding: 5px;
-}
-
-/*	****************************************
-	Modules (reusable classes)
-	**************************************** */
-.container {
-	margin: 0 auto;
-	width: 95%;
-	max-width: 960px; 
-}
-
-.content {
-	text-align: left;
-	overflow: auto;
-}
-.content img {
-	float: right;
-	padding: 0px 50px 0px 0px;
-}
-.wrap-one {
-	
-}
-/*	****************************************
-	Layout
-	**************************************** */
-	
-.layout {
-  display: flex; 
-  flex-flow: row nowrap; /* Align on the same line */
-  justify-content: space-between; /* Equal margin between the child elements */ 
-  position: absolute; 
-  bottom: 0; 
-  right: 0;
-}
-#first {
-	background-image: url("../images/cat2.jpg");
-	background-size: 100% 100%;
-}
-#second {
-	background-color: #ead3a8;
-}
-.one  {
-	padding: 8px;
-	background-color: white;
-	opacity: 0.7;
-	border-radius: 20px;
-}	
-.two {
-	padding: 12px;
-/*	background-color: #e18942;*/
-	background-color: #ffb173;
-	opacity: 0.8;
-	color: black;
-	border-radius: 20px;
-	color: black; 
-}
-.three {
-	padding: 12px;
-	background-color: white; 
-	opacity: 0.7;
-	border-radius: 20px;
-	color: black; 
-}
-
-.respond {
-	width: 100%;
-	max-width: 200px;
-	text-align: center;
-}
-.p-layout {
-	width: 70%;
-	margin: 50px;
-}
-.i-layout {
-
-	margin: 10px;
-}
-
 h1 {
 	color: #34282c; 
 /*	font-family: 'Nunito', sans-serif; */
 	font-family: 'Open Sans', sans-serif;
 }
-/* experiment */
 nav ul { 
 	padding-left: 0; 
 }
@@ -112,23 +24,42 @@ nav a {
 nav a:hover { 
 	background-color: #44b3c2;
 }
-
 a { 
-/*	color: black; */
 	text-decoration: none;
 }
 a:hover { 
 	color: white;
 	text-decoration: none;
 }
-.section-wrapper {
-	margin: 20px
+/*	****************************************
+	Modules (reusable classes)
+	**************************************** */
+.container {
+	margin: 0 auto;
+	width: 95%;
+	max-width: 960px; 
 }
-.section-wrapper a {
-	color: #44b3c2;
+.content {
+	text-align: left;
+	overflow: auto;
+}
+.content img {
+	float: right;
+	padding: 0px 50px 0px 0px;
+}
+.wrap-one {
+	
+}
+.right {
+	float: right;
+	margin-left: 15px;
+}
+
+.frame {
+	border: 1px solid #666;
+	padding: 5px;
 }
 /* form style: style idea borrowed from: https://www.sanwebe.com/2013/10/css-html-form-styles */
-
 .form-style {
     margin-left:auto;
     margin-right:auto;
@@ -177,14 +108,71 @@ a:hover {
 .form-style textarea{
     height:100px;
 }
+/*	****************************************
+	Layout
+	**************************************** */	
+.layout {
+  display: flex; 
+  flex-flow: row nowrap; /* Align on the same line */
+  justify-content: space-between; /* Equal margin between the child elements */ 
+  position: absolute; 
+  bottom: 0; 
+  right: 0;
+}
+#first {
+	background-image: url("../images/cat2.jpg");
+	background-size: 100% 100%;
+}
+#second {
+	background-color: #ead3a8;
+}
+.one  {
+	padding: 8px;
+	background-color: white;
+	opacity: 0.7;
+	border-radius: 20px;
+}	
+.two {
+	padding: 12px;
+/*	background-color: #e18942;*/
+	background-color: #ffb173;
+	opacity: 0.8;
+	color: black;
+	border-radius: 20px;
+	color: black; 
+}
+.three {
+	padding: 12px;
+	background-color: white; 
+	opacity: 0.7;
+	border-radius: 20px;
+	color: black; 
+}
+.respond {
+	width: 100%;
+	max-width: 200px;
+	text-align: center;
+}
+.p-layout {
+	width: 70%;
+	margin: 50px;
+}
+.i-layout {
 
-
+	margin: 10px;
+}
+.down-placement {
+	margin: 200px;
+}
+.section-wrapper {
+	margin: 20px
+}
+.section-wrapper a {
+	color: #44b3c2;
+}
 /*	*************************************
 	State
 	************************************* */
-.horizontal-menu .current a { 
-	color: green; 
-}
 .placeholder{
 	background-color: #ffcf75;
 }
